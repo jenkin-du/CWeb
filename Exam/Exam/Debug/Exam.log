@@ -1,0 +1,83 @@
+﻿生成启动时间为 2016/2/4 18:04:57。
+     1>项目“F:\程序\CWeb\Exam\Exam\Exam.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt cgic.c main.c
+         main.c
+     1>f:\程序\cweb\exam\exam\main.c(18): warning C4033: “cgiMain”必须返回值
+     1>f:\程序\cweb\exam\exam\main.c(23): warning C4033: “cgiMain”必须返回值
+     1>f:\程序\cweb\exam\exam\main.c(29): warning C4033: “cgiMain”必须返回值
+     1>f:\程序\cweb\exam\exam\main.c(36): warning C4033: “cgiMain”必须返回值
+     1>f:\程序\cweb\exam\exam\main.c(41): warning C4033: “cgiMain”必须返回值
+         cgic.c
+     1>f:\程序\cweb\exam\exam\cgic.c(144): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdlib.h(449) : 参见“getenv”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(147): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(151): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(191) : 参见“strncpy”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(293): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdlib.h(449) : 参见“getenv”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(523): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(533): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(285) : 参见“unlink”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(552): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(575): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(580): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(585): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(614): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(285) : 参见“unlink”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(644): warning C4996: 'tmpnam': This function or variable may be unsafe. Consider using tmpnam_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(330) : 参见“tmpnam”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(707): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(1159): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(285) : 参见“unlink”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(1205): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(1219): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(1315): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(1355): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(1403): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(1797): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(1844): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\time.inl(99) : 参见“gmtime”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(1880): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(2002): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(285) : 参见“unlink”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(2035): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(2157): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(2174): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(285) : 参见“unlink”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(2180): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(285) : 参见“unlink”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(2190): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(285) : 参见“unlink”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(2193): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>f:\程序\cweb\exam\exam\cgic.c(2450): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+         正在生成代码...
+     1>f:\程序\cweb\exam\exam\main.c(63): warning C4715: “cgiMain”: 不是所有的控件路径都返回值
+       Link:
+         D:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Server\Exam.cgi" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Server\Exam.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Server\Exam.lib" /MACHINE:X86 Debug\cgic.obj
+         Debug\main.obj
+         Exam.vcxproj -> E:\Server\Exam.cgi
+     1>已完成生成项目“F:\程序\CWeb\Exam\Exam\Exam.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.50

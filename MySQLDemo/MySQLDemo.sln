@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLDemo", "MySQLDemo\MySQLDemo.vcxproj", "{EAECF46F-8BF5-44EF-8BFE-23D8A6130459}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLCGIDemo", "MySQLCGIDemo\MySQLCGIDemo.vcxproj", "{03EF0C7B-D52F-4A34-874A-586AADD72B3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAECF46F-8BF5-44EF-8BFE-23D8A6130459}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EAECF46F-8BF5-44EF-8BFE-23D8A6130459}.Debug|Win32.Build.0 = Debug|Win32
+		{EAECF46F-8BF5-44EF-8BFE-23D8A6130459}.Release|Win32.ActiveCfg = Release|Win32
+		{EAECF46F-8BF5-44EF-8BFE-23D8A6130459}.Release|Win32.Build.0 = Release|Win32
+		{03EF0C7B-D52F-4A34-874A-586AADD72B3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03EF0C7B-D52F-4A34-874A-586AADD72B3F}.Debug|Win32.Build.0 = Debug|Win32
+		{03EF0C7B-D52F-4A34-874A-586AADD72B3F}.Release|Win32.ActiveCfg = Release|Win32
+		{03EF0C7B-D52F-4A34-874A-586AADD72B3F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

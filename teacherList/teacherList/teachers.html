@@ -1,0 +1,28 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Visual Studio">
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+    <table >
+        <thead>
+            <tr>
+    		<td>姓名</td><td>电话</td><td>修改</td><td>删除</td>
+    	    </tr>
+        </thead>
+        <tbody>
+            <TMPL_LOOP name="teachers">
+            <tr>
+                <td><TMPL_VAR name="name"/></td>
+                <td><TMPL_VAR name="phone"/></td>
+                <td><TMPL_VAR name="change"/></td>
+                <td><TMPL_VAR name="delete"/></td>
+            </tr>
+            </TMPL_LOOP>
+        </tbody>
+    	
+    </table>
+
+
+</BODY>
+</HTML>
